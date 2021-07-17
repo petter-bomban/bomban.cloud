@@ -1,2 +1,4 @@
 bomban/.azure
 bomban/.venv
+__pycache__
+*/__pycache__/
