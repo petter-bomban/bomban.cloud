@@ -10,5 +10,3 @@ app.register_blueprint(portfolio.portfolio, url_prefix='/portfolio')
 @app.route("/")
 def index():
     return render_template('index.html')
-
-app.run()
