@@ -1,5 +1,13 @@
 # Bomban.cloud
 
-Personal website using Python and hosted on Azure Web Apps
-
 https://bomban.cloud
+
+Personal website using Python 3, HTML, CSS and JavaScript.
+
+Hosted on Azure Web Apps.
+
+## Deployment
+
+```console
+az webapp up
+```
