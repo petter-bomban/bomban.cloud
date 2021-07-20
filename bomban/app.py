@@ -1,6 +1,6 @@
 from portfolio import portfolio
 from blog import blog
-from flask import Flask, request, session, redirect, url_for, render_template
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
@@ -10,3 +10,5 @@ app.register_blueprint(portfolio.portfolio, url_prefix='/portfolio')
 @app.route("/")
 def index():
     return render_template('index.html')
+
+#app.run()
